@@ -142,6 +142,133 @@ OrcaSlicer.
 
 ![image](status.jpg)
 
+Using the Sovol Klipper Touchscreen:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading and Unloading Filament:
+How to load (1a) and unload (2a) filament. 
+1a.  How to load filament:
+1b.  Pick printer you would like to use.
+1c.  Home printer: (Wake screen by pressing the touchscreen, if necessary)  On home screen (Four squares-bottom left center), press “Homing” button, then press “Home All”
+1d.  Make sure the hot end is high enough above the print bed when you attempt to push through the filament so that it doesn’t clog up the nozzle, by raising the extruder in the Z-direction.
+1e. 	->To do this go to main menu, Press “Homing”, to right of screen, press “Z+” button (top right) at least one time.
+
+1f.  Load spool on spool holder and prepare filament to load into extruder inlet by making sure there are no tangles of the filament winding.  
+1g.  Clip end of filament to have a clean end (if needed)
+1h.  Before you insert the filament into the extruder inlet, you must heat up the extruder.
+	->To do this:
+Press- Left arrow, at the bottom right of the screen
+Press “Actions"
+Press “Extrude”
+*Press “Temperature”, Select PLA (note: we do not print ABS at Spark)	
+Allow extruder and build plate (print bed) to come up to temperature.  (wait approximately 2 mins), extruder temperature will rise to about 210C, bed temp will rise to 50C. (Wait- the actual temps are at the top of the screen)
+Press- Left arrow (bottom right of the screen)
+Press the “Extrude” button then “Load”
+1i.  Place filament into extruder inlet filament port 
+until you feel some resistance
+
+
+
+
+
+
+
+1j.  Press “Load” (If you get a warning: “extrude below minimum temp”, go to *) until you see plastic extrude out of the hot end onto  the build plate.  Press load again until you see new color filament extruded onto build plate.
+1k.  Let go of the filament 
+1l.  Remove the extruded plastic from the build plate.
+The filament is now loaded and ready to print.
+
+2a.  How to unload filament (to change color or new spool)
+2b.  Home printer: On home Sovol screen, Press “Main Menu”, press “Homing” button, then press “Home All” (wait for movement to stop)
+2c.  Press- Left arrow, at the bottom right of the screen (see green circle above)
+Press “Temperature”, Select PLA
+	Allow extruder and build plate (print bed) to come up to temperature. (wait approximately 2 mins), extruder temperature will rise to about 210C, bed temp will rise to 50C.
+Press left arrow (bottom right) to go to previous screen.
+Press “Actions"
+Press “Extrude”
+Press “Unload”, wheel on extruder will start to turn, at this point it is ok to pull on the filament as the filament is extracting. 
+At this point the filament is unloaded.
+
+3. To print a previous print:
+Press four squares
+Press “Print” to reprint a previously uploaded print (Note: if you don’t have a print already loaded, please go to the section on “Putting Objects in a Project)
+Look for your desired print file on the screen (you may need to scroll down the screen)
+Hit the icon to the left of the file name
+Select your print to reprint then press “Print”
+
+Press “Print” to reprint a previously uploaded print (Note: if you don’t have a print already loaded, please go to the section on “Putting Objects in a Project)
+Look for your prior print on the screen
+Select your print to reprint then press “Print”
+
+3.  Switching colors at certain layers for multicolor prints (may be advanced, but not too much so).  
+
+4.  Clearing the bed, what is ok to do and what not to put on the build plate.
+It is ok to remove the bed and flex the metal plate to remove the plate.
+It is OK to use your fingernail, plastic spatula or other non-metal tool to remove the residual filament on the print bed.
+Please do not scrape or damage the print bed.
+
+5.  Stopping a print:
+Press the “stop” button (Orange circle)
+Press Cancel
+
+6.  Troubleshooting:
+
+
+
+Top 10 Common Printing Issues and Solutions (https://coprint3d.com/blogs/tips-tricks/top-10-common-printing-issues-and-solutions)
+OCTOBER 11, 2023
+Hello to the 3D printing enthusiasts out there! 🌟 It's no secret that 3D printing, while exciting, comes with its fair share of hurdles. But, every problem has a solution. Here's your comprehensive guide to the most common 3D printing challenges.
+1. Warping
+
+🛠 Solution: Warping is often caused by the uneven cooling of print layers. To combat this, ensure your print bed is heated, leveling it properly. Adhesion boosters, like painter’s tape or glue sticks, can also help your print stick more firmly to the bed. Enclosing the printer can keep out drafts, which can significantly reduce warping. Adding a brim can also help.
+2. Stringing
+
+🛠 Solution: Stringing is due to oozing filament. Adjusting your printer's retraction settings can help pull back the filament between print movements. Also, ensuring that you're printing at the right temperature can reduce the filament's tendency to ooze.
+3. Layer Shifting
+
+🛠 Solution: The main causes of layer shifting include loose belts or obstructions in the printer's path. Ensure all printer belts are tight and free from slack. Regularly lubricate moving parts to ensure smooth movement and prevent any obstructions.
+4. Over-Extrusion
+
+🛠 Solution: Over-extrusion means that too much filament is being used. Calibrate your extruder settings and ensure that you've input the correct filament diameter in your software. Print slower to give the filament more time to adhere correctly.
+5. Under-Extrusion
+
+🛠 Solution: Under-extrusion is the opposite of its over counterpart. Check for a clogged nozzle, which could restrict filament flow. Also, ensure the filament reel moves freely without any resistance or tangling.
+6. Bed Adhesion Issues
+
+🛠 Solution: Bed adhesion is crucial for a successful print. Regularly clean the print bed to ensure no residue interferes with adhesion. Using tools like a bed leveling probe can ensure optimal adherence.
+7. Clogged Nozzle
+
+🛠 Solution: Nozzles can clog over time. Regular cleaning, especially after using composite filaments, is essential. Periodic 'cold pulls' using nylon or cleaning filament can help maintain a clear nozzle path.
+8. Ghosting or Echoing
+
+🛠 Solution: Ghosting is due to vibrations in the printer. Ensure your printer is on a stable surface. Adjusting print speeds and ensuring belts are appropriately tensioned can reduce this issue.
+9. Incomplete Top Layers
+
+🛠 Solution: If top layers aren't printing right, increase the number of top layers in your slicer settings. It's also beneficial to check and possibly increase the infill percentage to provide more support.
+10. Brittle Filament
+
+🛠 Solution: Filaments, especially PLA, can become brittle when exposed to moisture. Store filaments in a dry, cool place, preferably with desiccants. If filament has absorbed moisture, you can dry it in a filament dryer or oven.
+
+Some other helpful links:
+https://manufactur3dmag.com/common-problems-in-3d-printing-how-to-resolve-them-part-i/
+https://www.geeetech.com/blog/3d-printing-trouble-shooting-guide/troubleshooting-guide-to-19-common-3d-printing-problemspart-one/#:~:text=These 3D printing problems are typical signs,and/or the first layer does not stick.
+https://buildbee.com/blog/article/3d-print-troubleshooting-guide
+
+
 # Additional Help
 
 Should you run into questions not covered here, use one of the following options to get more help. Please provide as much detail as possible (*screenshots/images can  be a huge help in troubleshooting*).
@@ -149,3 +276,5 @@ Should you run into questions not covered here, use one of the following options
 * Email the [Electronics Leads](mailto:electronics@sparkmakerspace.org)
 * Post a message in the Spark Discord (if you need an invite, ask!)
 * Stop by [Electronics Night](https://electronicsnight.com)
+
+
